@@ -4,7 +4,7 @@
 
 int keep[max_len] = {0};
 
-long long get_len(long long x) {
+int get_len(long long x) {
     if (x == 1) return 1;
     if (x < max_len && keep[x]) return keep[x];
     int ret;
